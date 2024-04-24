@@ -14,21 +14,46 @@ Please look below on how to run the code or model!
 
 ### Prerequisites
 
-Download or Clone this repo.
-* Change Path Names, if using Google Colab use the first 7 line of code or if working locally use the last 3 lines. Please update to your paths!
+Download or Clone this repo. Change Path Names to the where the models and dataset are downloaded,
+Update
   ```sh
-
+    dataset_path = 'Dataset_BUSI_with_GT-3/*/*.png'
   ```
+  To
+  ```sh
+    dataset_path = <Your path location the dataset>
+```
 
 ### Train/Run the Model
 
 Below is an example of how you Train or Test your own model. You must change the path and import the libraries!
 
 To Train: Go to the Train Section in the Notebook
-   ```sh
+NOT RECOMMENDED (MODELS HAVE ALREADY BEEN TRAINED)
+DO NOT OVERWRITE THE MODEL WEIGHTS!
 
-   ```
-To Test: Go to the Testing Model on Test Data Section
-   ```sh
+### To train the model, go to one of the "model" training section in the notebook
+```sh
+Run line 1 to 7
+```
 
-   ``` 
+```sh
+Run the specific section for the model training (Make sure the dataset path is updated)
+```
+### To Test or run inference: Go to the Testing Model on Test Data Section
+To run the model, go to one of the "model" testing section of the notebook
+
+
+* Update this
+```sh
+model.load_weights('/content/drive/MyDrive/model1_unet_binaryloss_128.h5')
+```
+to
+```sh
+model.load_weights(<Your path for the specific download model>)
+```
+```sh
+Run the specific cell for the specific output you require, but make sure you run the and compile
+the model at the start of each test section
+```
+
