@@ -2,11 +2,11 @@
 ### Abdul Bhutta
 ### EE8204 - Neural Networks
 
-This is a final project for EE8223: Deep Learning
+This is a final project for EE8204 - Neural Networks
 
 This project implements a U-Net model to detect and segment the tumour in the breast. 
 
-![alt text](https://github.com/abdulbhutta/Mask-Detection-Using-Faster-RCNN/blob/main/Image/Mask_Image.png)
+![alt text](https://github.com/abdulbhutta/Breast-Cancer-Segmentation-using-U-Net/blob/main/Image/output.png)
 
 ## Getting Started
 
